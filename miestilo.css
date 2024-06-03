@@ -1,13 +1,15 @@
 body {
     background-color: #eaf2e3;
+    background-image: url('https://as2.ftcdn.net/v2/jpg/04/73/47/65/1000_F_473476520_jfL74mcJmayUhrwfgYxZ0j27BDaqr646.jpg');
+    background-repeat: repeat;
+    background-size: contain;
     color: #333;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-p {
-    color: blue; /* Cambia el color del párrafo a azul */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .texto-centrado {
@@ -20,6 +22,8 @@ p {
     border: 2px solid black;
     padding: 10px;
     margin: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para mejor legibilidad */
+    max-width: 800px; /* Ancho máximo para mantener el texto centrado */
 }
 
 header {
@@ -27,16 +31,19 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
+    width: 100%;
 }
 
 section {
     padding: 20px;
+    width: 100%;
 }
 
 footer {
     background-color: #4caf50;
     color: #fff;
     padding: 20px 0;
+    width: 100%;
 }
 
 .footer-content {
@@ -48,6 +55,7 @@ footer {
 nav {
     background-color: #4caf50;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
